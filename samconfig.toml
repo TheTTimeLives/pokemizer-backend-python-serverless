@@ -29,6 +29,7 @@ watch = true
 [default.local_start_api]
 [default.local_start_api.parameters]
 warm_containers = "EAGER"
+api = "http://0.0.0.0:9100"
 
 [default.local_start_lambda]
 [default.local_start_lambda.parameters]
